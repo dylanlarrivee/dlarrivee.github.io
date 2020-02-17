@@ -10,6 +10,7 @@ import {
   Grid,
   Cell
 } from "react-mdl";
+import programstopper from "../img/ri-program-stopper.png";
 
 class Projects extends Component {
   render() {
@@ -22,27 +23,25 @@ class Projects extends Component {
             </div>
           </Cell>
         </Grid>
-
-        <Grid >
-          <Cell col={4}>
+        <Grid>
+          <Cell col={4} tablet={5}>
             <Card
               shadow={5}
-              style={{ width: "310px", height: "320px", margin: "auto" }}
-              className="projects-grid"
+              style={{ width: "350px", height: "550px", margin: "auto" }}
             >
               <CardTitle
                 expand
                 style={{
-                  color: "#fff",
-                  background:
-                    "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
+                  color: "#fff"
                 }}
-              >
-              </CardTitle>
+              ><img src={programstopper} width="250" height="300"/></CardTitle>
               <CardText>
-              <div className="project-card-text">
-                <p>Responsys API Program Stopper </p>
-                Web app that allows users to stop a running program in their Oracle Responsys account without the need to log in to the platform. Built using Node.js, PostgreSQl, JavaScript and utilizes the Responsys API functionality.
+                <div className="project-card-text">
+                  <p>Responsys API Program Stopper </p>
+                  Web app that allows users to stop a running program in their
+                  Oracle Responsys account without the need to log in to the
+                  platform. Built using Node.js, PostgreSQl, JavaScript and
+                  utilizes the Responsys API functionality.
                 </div>
               </CardText>
               <CardActions border>
@@ -50,12 +49,11 @@ class Projects extends Component {
               </CardActions>
             </Card>
           </Cell>
-          &nbsp;
-          <Cell col={4}> 
+
+          <Cell col={4} tablet={5}>
             <Card
               shadow={5}
-              style={{ width: "310px", height: "320px", margin: "auto" }}
-              className="projects-grid"
+              style={{ width: "350px", height: "390px", margin: "auto" }}
             >
               <CardTitle
                 expand
@@ -64,25 +62,24 @@ class Projects extends Component {
                   background:
                     "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
                 }}
-              >
-              </CardTitle>
+              ></CardTitle>
               <CardText>
-              <div className="project-card-text">
-              <p> Node Media Server: Client App</p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
-                convallis.
+                <div className="project-card-text">
+                  <p> Node Media Server: Client App</p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
+                  convallis.
                 </div>
               </CardText>
               <CardActions border>
                 <Button colored>Github Code</Button>
               </CardActions>
-            </Card></Cell>
-            &nbsp;
-          <Cell col={4}> 
+            </Card>
+          </Cell>
+
+          <Cell col={4} tablet={5}>
             <Card
               shadow={5}
-              style={{ width: "310px", height: "320px", margin: "auto" }}
-              className="projects-grid"
+              style={{ width: "350px", height: "390px", margin: "auto" }}
             >
               <CardTitle
                 expand
@@ -91,19 +88,21 @@ class Projects extends Component {
                   background:
                     "url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC"
                 }}
-              >
-               
-              </CardTitle>
+              ></CardTitle>
               <CardText>
-              <div className="project-card-text">
-              <p> Node Media Server: Server App</p>
-                Web app that allows users to stop a running program in their Oracle Responsys account without the need to log in to the platform. Built using Node.js, PostgreSQl, JavaScript and utilizes the Responsys API functionality.
+                <div className="project-card-text">
+                  <p> Node Media Server: Server App</p>
+                  Web app that allows users to stop a running program in their
+                  Oracle Responsys account without the need to log in to the
+                  platform. Built using Node.js, PostgreSQl, JavaScript and
+                  utilizes the Responsys API functionality.
                 </div>
               </CardText>
               <CardActions border>
                 <Button colored>Github Code</Button>
               </CardActions>
-            </Card></Cell>
+            </Card>
+          </Cell>
         </Grid>
       </div>
     );
