@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/dylanlarrivee/dlarrivee.github.io.git/static/css/main.0ffdaefc.chunk.css",
+    "main.js": "/dylanlarrivee/dlarrivee.github.io.git/static/js/main.ab601887.chunk.js",
+    "main.js.map": "/dylanlarrivee/dlarrivee.github.io.git/static/js/main.ab601887.chunk.js.map",
+    "runtime-main.js": "/dylanlarrivee/dlarrivee.github.io.git/static/js/runtime-main.1fd92a6d.js",
+    "runtime-main.js.map": "/dylanlarrivee/dlarrivee.github.io.git/static/js/runtime-main.1fd92a6d.js.map",
+    "static/css/2.a6bc1c31.chunk.css": "/dylanlarrivee/dlarrivee.github.io.git/static/css/2.a6bc1c31.chunk.css",
+    "static/js/2.e43258f5.chunk.js": "/dylanlarrivee/dlarrivee.github.io.git/static/js/2.e43258f5.chunk.js",
+    "static/js/2.e43258f5.chunk.js.map": "/dylanlarrivee/dlarrivee.github.io.git/static/js/2.e43258f5.chunk.js.map",
+    "index.html": "/dylanlarrivee/dlarrivee.github.io.git/index.html",
+    "precache-manifest.940007ee5dfe5bee26146a521a26b534.js": "/dylanlarrivee/dlarrivee.github.io.git/precache-manifest.940007ee5dfe5bee26146a521a26b534.js",
+    "service-worker.js": "/dylanlarrivee/dlarrivee.github.io.git/service-worker.js",
+    "static/css/2.a6bc1c31.chunk.css.map": "/dylanlarrivee/dlarrivee.github.io.git/static/css/2.a6bc1c31.chunk.css.map",
+    "static/css/main.0ffdaefc.chunk.css.map": "/dylanlarrivee/dlarrivee.github.io.git/static/css/main.0ffdaefc.chunk.css.map",
+    "static/js/2.e43258f5.chunk.js.LICENSE.txt": "/dylanlarrivee/dlarrivee.github.io.git/static/js/2.e43258f5.chunk.js.LICENSE.txt",
+    "static/media/ri-program-stopper.png": "/dylanlarrivee/dlarrivee.github.io.git/static/media/ri-program-stopper.7aed9949.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fd92a6d.js",
+    "static/css/2.a6bc1c31.chunk.css",
+    "static/js/2.e43258f5.chunk.js",
+    "static/css/main.0ffdaefc.chunk.css",
+    "static/js/main.ab601887.chunk.js"
+  ]
+}
